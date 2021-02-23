@@ -30,6 +30,7 @@ class Point{
     }
 
 }
+modules.export = Point;
 
 //Main
 
@@ -44,3 +45,4 @@ console.log(p1.toString());
 p1.setX(3);
 p1.setY(0);
 console.log(p1.toString());
+
