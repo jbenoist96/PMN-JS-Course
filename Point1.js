@@ -30,7 +30,7 @@ class Point{
     }
 
 }
-modules.export = Point;
+
 
 //Main
 
@@ -38,6 +38,7 @@ modules.export = Point;
 let p1 = new Point(2,1);
 
 //Test
+/*
 console.log(p1.getX());
 console.log(p1.getY());
 console.log(p1.toString());
@@ -45,4 +46,6 @@ console.log(p1.toString());
 p1.setX(3);
 p1.setY(0);
 console.log(p1.toString());
+*/
 
+module.exports = Point;
